@@ -119,7 +119,7 @@ class GithubPopularRepos extends Component {
           <LanguageFilterItem
             key={eachItem.id}
             tabDetails={eachItem}
-            setActiveTabId={this.setActiveTabId()}
+            setActiveTabId={this.setActiveTabId}
             isActive={activeLanguage === eachItem.id}
           />
         ))}
